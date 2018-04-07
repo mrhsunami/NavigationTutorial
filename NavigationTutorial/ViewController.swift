@@ -10,9 +10,25 @@ import UIKit
 import MapboxDirections
 import MapboxCoreNavigation
 import MapboxNavigation
+import QuartzCore
 
 class ViewController: UIViewController, MGLMapViewDelegate {
 
+    //MARK: Buttons
+    @IBOutlet weak var calculateRouteButton: UIButton!
+    @IBAction func calculateRouteButtonPressed(_ sender: UIButton) {
+        calculateRoute(with: waypoints) { (route, error) in
+            if error != nil {
+                print("Error calculating route")
+            }
+        }
+    }
+    
+    //        calculateRoute(from: (mapView.userLocation!.coordinate), to: annotation.coordinate) { (route, error) in
+    //            if error != nil {
+    //                print("Error calculating route")
+    //            }
+    //        }
     var mapView = NavigationMapView()
     var directionsRoute: Route?
     var waypoints: [Waypoint] = []
@@ -32,6 +48,10 @@ class ViewController: UIViewController, MGLMapViewDelegate {
         let setDestination = UILongPressGestureRecognizer(target: self, action: #selector(didLongPress(_:)))
         mapView.addGestureRecognizer(setDestination)
         
+        calculateRouteButton.layer.cornerRadius = 5
+
+        view.bringSubview(toFront: calculateRouteButton)
+        
     }
     
     //MARK: functions
@@ -49,35 +69,51 @@ class ViewController: UIViewController, MGLMapViewDelegate {
         annotation.title = "Start navigation"
         mapView.addAnnotation(annotation)
         
-//        // Create a waypoint and add it to waypoint array
-//        let newWaypoint = Waypoint(coordinate: coordinate, coordinateAccuracy: -1, name: nil)
-//        waypoints.append(newWaypoint)
+        // Create a waypoint and add it to waypoint array
+        let newWaypoint = Waypoint(coordinate: coordinate, coordinateAccuracy: -1, name: nil)
+        waypoints.append(newWaypoint)
         
-        // Calculate the route from the user's location to the set destination
-        calculateRoute(from: (mapView.userLocation!.coordinate), to: annotation.coordinate) { (route, error) in
-            if error != nil {
-                print("Error calculating route")
-            }
-        }
+//        // Calculate the route from the user's location to the set destination
+//        calculateRoute(from: (mapView.userLocation!.coordinate), to: annotation.coordinate) { (route, error) in
+//            if error != nil {
+//                print("Error calculating route")
+//            }
+//        }
     }
     
-    func calculateRoute(from origin: CLLocationCoordinate2D,
-                        to destination: CLLocationCoordinate2D,
-                        completion: @escaping (Route?, Error?) -> ()) {
-        // Coordinate accuracy is the maximum distance away from the waypoint that the route may still be considered viable, measured in meters. Negative values indicate that a indefinite number of meters away from the route and still be considered viable.
-        let origin = Waypoint(coordinate: origin, coordinateAccuracy: -1, name: "Start")
-        let destination = Waypoint(coordinate: destination, coordinateAccuracy: -1, name: "Finish")
-        
-        // Specify that the route is intended for bikes
-        let options = NavigationRouteOptions(waypoints: [origin, destination], profileIdentifier: .cycling)
-        
-        // Generate the route object and draw it on the map
-        _ = Directions.shared.calculate(options) { [unowned self] (waypoints, routes, error) in
-            self.directionsRoute = routes?.first
-            // Draw the route on the map after creating it
-            self.drawRoute(route: self.directionsRoute!)
+//    func calculateRoute(from origin: CLLocationCoordinate2D,
+//                        to destination: CLLocationCoordinate2D,
+//                        completion: @escaping (Route?, Error?) -> ()) {
+//        // Coordinate accuracy is the maximum distance away from the waypoint that the route may still be considered viable, measured in meters. Negative values indicate that a indefinite number of meters away from the route and still be considered viable.
+//        let origin = Waypoint(coordinate: origin, coordinateAccuracy: -1, name: "Start")
+//        let destination = Waypoint(coordinate: destination, coordinateAccuracy: -1, name: "Finish")
+//
+//        // Specify that the route is intended for bikes
+//        let options = NavigationRouteOptions(waypoints: [origin, destination], profileIdentifier: .cycling)
+//
+//        // Generate the route object and draw it on the map
+//        _ = Directions.shared.calculate(options) { [unowned self] (waypoints, routes, error) in
+//            self.directionsRoute = routes?.first
+//            // Draw the route on the map after creating it
+//            self.drawRoute(route: self.directionsRoute!)
+//        }
+//    }
+    
+    func calculateRoute(with waypoints: [Waypoint],
+                            completion: @escaping (Route?, Error?) -> ()) {
+
+    
+            // Specify that the route is intended for bikes
+            let options = NavigationRouteOptions(waypoints: waypoints, profileIdentifier: .cycling)
+    
+            // Generate the route object and draw it on the map
+            _ = Directions.shared.calculate(options) { [unowned self] (waypoints, routes, error) in
+                self.directionsRoute = routes?.first
+                // Draw the route on the map after creating it
+                self.drawRoute(route: self.directionsRoute!)
+            }
         }
-    }
+
     
     func drawRoute(route: Route) {
         guard route.coordinateCount > 0 else { return }
