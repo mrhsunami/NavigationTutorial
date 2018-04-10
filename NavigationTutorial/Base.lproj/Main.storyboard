@@ -32,16 +32,50 @@
                                     <action selector="calculateRouteButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HEs-t1-vrg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuS-Km-xFS">
+                                <rect key="frame" x="907" y="127" width="150" height="48"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Ae4-3F-0RS"/>
+                                    <constraint firstAttribute="width" constant="150" id="n2C-Bq-TbH"/>
+                                </constraints>
+                                <state key="normal" title="Start Navigation">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startNavigationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kg6-oc-Qu8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unq-Da-IbF">
+                                <rect key="frame" x="907" y="194" width="150" height="48"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="a5p-cq-YjK"/>
+                                    <constraint firstAttribute="width" constant="150" id="gAs-fm-nLp"/>
+                                </constraints>
+                                <state key="normal" title="Clear Waypoints">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearWaypointsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="94i-lp-GNa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="YuS-Km-xFS" firstAttribute="top" secondItem="DUy-ZA-irS" secondAttribute="bottom" constant="19" id="FhZ-Gp-geb"/>
+                            <constraint firstItem="unq-Da-IbF" firstAttribute="top" secondItem="YuS-Km-xFS" secondAttribute="bottom" constant="19" id="Jw9-7F-xPy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DUy-ZA-irS" secondAttribute="trailing" constant="55" id="LdW-OA-kTd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YuS-Km-xFS" secondAttribute="trailing" constant="55" id="PTe-bH-aiQ"/>
                             <constraint firstItem="DUy-ZA-irS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="hLT-L4-EHu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="unq-Da-IbF" secondAttribute="trailing" constant="55" id="nPV-qW-16c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="calculateRouteButton" destination="DUy-ZA-irS" id="gKW-uc-Nl4"/>
+                        <outlet property="clearWaypointsButton" destination="unq-Da-IbF" id="DNe-q7-YFG"/>
+                        <outlet property="startNavigationButton" destination="YuS-Km-xFS" id="NOy-bT-Wbi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

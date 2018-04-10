@@ -14,28 +14,15 @@ import QuartzCore
 
 class ViewController: UIViewController, MGLMapViewDelegate {
 
-    //MARK: Buttons
-    @IBOutlet weak var calculateRouteButton: UIButton!
-    @IBAction func calculateRouteButtonPressed(_ sender: UIButton) {
-        calculateRoute(with: waypoints) { (route, error) in
-            if error != nil {
-                print("Error calculating route")
-            }
-        }
-    }
-    
-    //        calculateRoute(from: (mapView.userLocation!.coordinate), to: annotation.coordinate) { (route, error) in
-    //            if error != nil {
-    //                print("Error calculating route")
-    //            }
-    //        }
     var mapView = NavigationMapView()
     var directionsRoute: Route?
-    var waypoints: [Waypoint] = []
+    
+//    var annotations: [MGLPointAnnotation] = []
+    var userLocation: [Waypoint] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         // Create a MapView and configure options
         mapView = NavigationMapView(frame: view.bounds)
         mapView.delegate = self
@@ -48,10 +35,70 @@ class ViewController: UIViewController, MGLMapViewDelegate {
         let setDestination = UILongPressGestureRecognizer(target: self, action: #selector(didLongPress(_:)))
         mapView.addGestureRecognizer(setDestination)
         
+        // Style the buttons
         calculateRouteButton.layer.cornerRadius = 5
-
-        view.bringSubview(toFront: calculateRouteButton)
+        startNavigationButton.layer.cornerRadius = 5
+        clearWaypointsButton.layer.cornerRadius = 5
         
+        view.bringSubview(toFront: calculateRouteButton)
+        view.bringSubview(toFront: startNavigationButton)
+        view.bringSubview(toFront: clearWaypointsButton)
+        
+    }
+    
+    //MARK: Buttons
+    @IBOutlet weak var calculateRouteButton: UIButton!
+    @IBOutlet weak var startNavigationButton: UIButton!
+    @IBOutlet weak var clearWaypointsButton: UIButton!
+    
+    @IBAction func calculateRouteButtonPressed(_ sender: UIButton) {
+        
+        // insert current user location as start point if available
+        if let userLocation = mapView.userLocation?.coordinate {
+            let firstWaypoint = Waypoint(coordinate: userLocation, coordinateAccuracy: -1, name: nil)
+            self.userLocation = [firstWaypoint]
+        }
+        
+        var waypoints: [Waypoint] = []
+        
+        if let annotations = mapView.annotations {
+            guard annotations.count > 0 else {
+                print("No destination found")
+                return
+            }
+            for annotation in annotations {
+                let waypoint = Waypoint(coordinate: annotation.coordinate, coordinateAccuracy: -1, name: nil)
+                waypoints.append(waypoint)
+            }
+        }
+        
+        
+        let finalWaypoints = userLocation + waypoints.reversed()
+        
+        calculateRoute(with: finalWaypoints) { (route, error) in
+            if error != nil {
+                print("Error calculating route")
+            }
+        }
+    }
+
+    @IBAction func startNavigationButtonPressed(_ sender: UIButton) {
+        if let calculatedRoute = directionsRoute {
+            let navigationViewController = NavigationViewController(for: calculatedRoute)
+            self.present(navigationViewController, animated: true, completion: nil)
+        }
+    }
+
+    @IBAction func clearWaypointsButtonPressed(_ sender: UIButton) {
+        
+        if let annotations = mapView.annotations {
+            mapView.removeAnnotations(annotations)
+        }
+        
+        directionsRoute = nil
+        if let source = mapView.style?.source(withIdentifier: "route-source") as? MGLShapeSource {
+            source.shape = nil
+        }
     }
     
     //MARK: functions
@@ -66,43 +113,15 @@ class ViewController: UIViewController, MGLMapViewDelegate {
         // Create a basic point annotation and add it to map
         let annotation = MGLPointAnnotation()
         annotation.coordinate = coordinate
-        annotation.title = "Start navigation"
+        annotation.title = "Delete"
+//        annotations.append(annotation)
         mapView.addAnnotation(annotation)
         
-        // Create a waypoint and add it to waypoint array
-        let newWaypoint = Waypoint(coordinate: coordinate, coordinateAccuracy: -1, name: nil)
-        waypoints.append(newWaypoint)
-        
-//        // Calculate the route from the user's location to the set destination
-//        calculateRoute(from: (mapView.userLocation!.coordinate), to: annotation.coordinate) { (route, error) in
-//            if error != nil {
-//                print("Error calculating route")
-//            }
-//        }
     }
-    
-//    func calculateRoute(from origin: CLLocationCoordinate2D,
-//                        to destination: CLLocationCoordinate2D,
-//                        completion: @escaping (Route?, Error?) -> ()) {
-//        // Coordinate accuracy is the maximum distance away from the waypoint that the route may still be considered viable, measured in meters. Negative values indicate that a indefinite number of meters away from the route and still be considered viable.
-//        let origin = Waypoint(coordinate: origin, coordinateAccuracy: -1, name: "Start")
-//        let destination = Waypoint(coordinate: destination, coordinateAccuracy: -1, name: "Finish")
-//
-//        // Specify that the route is intended for bikes
-//        let options = NavigationRouteOptions(waypoints: [origin, destination], profileIdentifier: .cycling)
-//
-//        // Generate the route object and draw it on the map
-//        _ = Directions.shared.calculate(options) { [unowned self] (waypoints, routes, error) in
-//            self.directionsRoute = routes?.first
-//            // Draw the route on the map after creating it
-//            self.drawRoute(route: self.directionsRoute!)
-//        }
-//    }
     
     func calculateRoute(with waypoints: [Waypoint],
                             completion: @escaping (Route?, Error?) -> ()) {
 
-    
             // Specify that the route is intended for bikes
             let options = NavigationRouteOptions(waypoints: waypoints, profileIdentifier: .cycling)
     
@@ -114,7 +133,6 @@ class ViewController: UIViewController, MGLMapViewDelegate {
             }
         }
 
-    
     func drawRoute(route: Route) {
         guard route.coordinateCount > 0 else { return }
         // Convert the route's coordinates into a polyline
@@ -136,6 +154,18 @@ class ViewController: UIViewController, MGLMapViewDelegate {
             mapView.style?.addSource(source)
             mapView.style?.addLayer(lineStyle)
         }
+    }
+    
+    // Implement the delegate method that allows annotations to show callouts when tapped
+    func mapView(_ mapView: MGLMapView, annotationCanShowCallout annotation: MGLAnnotation) -> Bool {
+        return true
+    }
+    
+    func mapView(_ mapView: MGLMapView, tapOnCalloutFor annotation: MGLAnnotation) {
+        
+        mapView.removeAnnotation(annotation)
+
+        
     }
 
 
