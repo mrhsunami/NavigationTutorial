@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,7 +23,6 @@
 		0A90AD0221F50054C87A0736B8BEE283 /* InstructionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC89B1DB9BEC3006B4749D8B6F02842 /* InstructionPresenter.swift */; };
 		0AC52F11A44BBE4E234EC131DC837D85 /* MGLMapView+MGLNavigationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F7F29D7D21AE5D489660C4C07CAF6C /* MGLMapView+MGLNavigationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B03C8C1356734637231D952947C0504 /* ScreenCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE1C603E4F996E65D5E80413028139 /* ScreenCapture.swift */; };
-		0B248E9AAEDFC000729FD8E3B806D8C2 /* Solar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC261EC10CE339A53BFB1539C3FBFC4 /* Solar.framework */; };
 		0C2ACCC52A34F9A0B0154E572877B252 /* MapboxSpeech.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F077B87FB7078C36F1E37DF7175839 /* MapboxSpeech.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C2DFA28FE3EDD2E7F1F0AE1768F8FBF /* DayStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003D595B66E76A20143251A99B48122 /* DayStyle.swift */; };
 		0D12284D29801BC84D2D4EF58DADE39E /* TSKTrustKitConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF14E5D0009DCF86255B69D667F8B00 /* TSKTrustKitConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,12 +33,9 @@
 		16C945939DCA9CCD121E22AD7B0BED02 /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6922265004CF52CBD268B09E06316205 /* Locale.swift */; };
 		178519BAF35D267B387E26265173A0B6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53933433E2AF32480F519393AC74697 /* Date.swift */; };
 		1A1BDA7CB69837D2864A1035B1B26D4A /* CLLocation+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = C80C1EF1965CA70B06616E2923DA27CE /* CLLocation+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C06ED9E7F45EED0F3AD2AC1D27FEF9B /* MapboxCoreNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DB6091755C7D8CDC3A08682276CDBF /* MapboxCoreNavigation.framework */; };
 		1C96BA1DDF702F7E3E19A42F3F072225 /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = C708E0785B9D08745077AC296E439B00 /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CE17BA752E7439B0D605AAFA67C0D32 /* ssl_pin_verifier.m in Sources */ = {isa = PBXBuildFile; fileRef = AE88E7BD13CEACCA197EBCC01FD8FD03 /* ssl_pin_verifier.m */; };
-		1CEA3A5C842044292B2537F3665A7BA4 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD59EF0E75FCF36A70A5239096C322E /* MapboxMobileEvents.framework */; };
 		1F4963F66DE8E3C367CF0B4AC4972BE2 /* MGLMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C73C7D70C3B62A56BA3AA7207F546AA /* MGLMapView.swift */; };
-		1FEDCA26A7CE3C301122FFF6EDC9C893 /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4421F0281BDEA20799A6FA814C322519 /* Polyline.framework */; };
 		21313D212F9B23166114AEA1E804C464 /* vendor_identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA4C976A01FBE56C984E8D58AEB896 /* vendor_identifier.m */; };
 		21DDFE3822558FD6F383020981437DC2 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CCA06DB09FB38D680ADA11C655540 /* String.swift */; };
 		220A19E7D2400D1A914725B8F39FDF36 /* MBNavigationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = E999516409746C18A4910546AF865BFA /* MBNavigationSettings.m */; };
@@ -51,7 +47,6 @@
 		27682C166A0D29809BABF63CBFF33FFF /* MBWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7D35DF7AD874A1423492A0BBC2C91F /* MBWaypoint.swift */; };
 		2B1DAD09F3CC7A1AD9A6936591FE49DF /* Turf.h in Headers */ = {isa = PBXBuildFile; fileRef = C07090EEF21BC61F5C2FF03952C5B2B5 /* Turf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C367E9E59FD53BA882EA27CD1E7931C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C22E5CFF62244CAD7D1111BDEAD54C /* Foundation.framework */; };
-		2C5F6941DE11DDFFD18E75E65DF60BB1 /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67294EEC41CF88DA320179122B942E2 /* Turf.framework */; };
 		2E0579F9C1736703C15EBBC4A927073E /* MMEEventLogReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9037CCB329AE1B3FC56FDC692DD8343 /* MMEEventLogReportViewController.m */; };
 		2F508A11D71C381E3BFC89871619BA60 /* MMENSDateWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8AA004F706FED51B507877FB8D7091 /* MMENSDateWrapper.m */; };
 		3022661BC669D097E55BBBEB56D17B1B /* MapboxNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659768B1BB48DEF2EE7FA506CF352C4F /* MapboxNavigation-dummy.m */; };
@@ -70,7 +65,6 @@
 		41A309976AB7FBC67A98076CB4976FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622294C02160D881EE1BDB86D4447943 /* Assets.xcassets */; };
 		41C16FB3AE1819C6DF4FDFCE7EB90FA0 /* MapboxMobileEvents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E44ED26D88E13E0C189B993620D39D7 /* MapboxMobileEvents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42C149337B31B6FDFBC2E4CFF4D4C33E /* RouteVoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D5C678ECF7CDF5BC28325E8E3B538 /* RouteVoiceController.swift */; };
-		43C4923A4702AFCCF89DA06A56983965 /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4421F0281BDEA20799A6FA814C322519 /* Polyline.framework */; };
 		43CA8E7535075C4E6250F991439D02D2 /* MMEEventsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F22837857205A9C1F31E0C6F17354 /* MMEEventsConfiguration.m */; };
 		449036D28BF4E0C2A093CC3C4C0C7F26 /* MBLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6603E7F9579B463BE581178739CB8EAC /* MBLane.swift */; };
 		452F87BD40F745AF50DAF752A8CD0FB9 /* StyleKitMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E142C8FB69D328AFE0E666DF95401 /* StyleKitMarker.swift */; };
@@ -80,7 +74,6 @@
 		46067D7FE7BE30BEE1D922226A7CFC1F /* MBVisualInstructionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF533D10C01B4B17B3A51DCB67BFAF71 /* MBVisualInstructionComponent.swift */; };
 		46E18202AABC67DFDA44DE5206574266 /* reporting_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = ED350C3281FEAA442C594EC3E3C87DFD /* reporting_utils.m */; };
 		46F9AF0A3C5DC8AB061E030B7100BD48 /* Solar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AD0AD37596CBB68E5C65DE3701220 /* Solar-dummy.m */; };
-		47C4EFAAEE9D026A25AA5260ED6FAFA9 /* MapboxDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656DF1BB44F1EF834455E74557BEB3D2 /* MapboxDirections.framework */; };
 		4817662DF02BA1F0BBB547BE13F317AF /* NavigationRouteOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FF48C0A7BA3E804FB265C0860BC87 /* NavigationRouteOptions.swift */; };
 		48419152FCD72739CE4E0E7E38B8019B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E74111789896579476E4B8F172B8DD /* UIView.swift */; };
 		4907CC38DB25DD8F9E7F2308FFFA0100 /* MMETrustKitWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA51595B17DE0CD355E21604DEFF9275 /* MMETrustKitWrapper.m */; };
@@ -96,7 +89,6 @@
 		4FE32C3A343916434AD4C01D9563863C /* FeedbackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854B8A38BE2E16BF60BEC7531244CA6 /* FeedbackItem.swift */; };
 		4FF6046FE3E26C432F782EE6497D0162 /* CLLocation+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A9D90B1A336D914AF6E708843EFEC /* CLLocation+MMEMobileEvents.m */; };
 		5014A64B8C2FB4D94E633950D8383DBC /* TSKPinningValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B63B389885053FE56DD4D837D0A301E /* TSKPinningValidator.m */; };
-		5121E65FD11847801FB02FDF475B4E54 /* MapboxDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656DF1BB44F1EF834455E74557BEB3D2 /* MapboxDirections.framework */; };
 		515D21CC23DD26B326B1DB34DC809C4B /* MBRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EC31DE3A72E75F8D73A05D79262C32 /* MBRouteOptions.m */; };
 		51A09BFD39599B6BC5EBCC195304DD10 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D51518E9C913DFB8ED45B6788EE151 /* CGPoint.swift */; };
 		51B62D4BA585A3E58E063344B59A7D4A /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5AA1E68DFFFEC090037588529583B1 /* Feedback.swift */; };
@@ -111,7 +103,6 @@
 		590C03E34E2BBE423ECF28F644A04486 /* CLLocationDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABFF41CC28A871E2A0F7EE816587802 /* CLLocationDirection.swift */; };
 		5965A3B23C5BEE05988213254156F255 /* MapboxDirections.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B6B1548924E29746C1688F66300375 /* MapboxDirections.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE0E8F87404606F2116518131E8A049 /* MMEEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385B680C13D629C1A53682AB09EC3F2 /* MMEEvent.m */; };
-		5BFB571358A67914BD456F9D648CE9CE /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67294EEC41CF88DA320179122B942E2 /* Turf.framework */; };
 		5CD63378089414862AF3175C59078093 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C4D83F036F751A44F7FF600DB7826 /* Error.swift */; };
 		5D8A8E682129A4767EB226906B209979 /* CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BD1FB0235F20812C63BA23300E68A /* CoreLocation.swift */; };
 		5E6344162EDC0DE7C191BF693D6C5C07 /* MMEDependencyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9376B8B7D78F454D018F6A48EB99B5CA /* MMEDependencyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -203,7 +194,6 @@
 		B253B56ADD4841E8288B0FAF3447474E /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DB3EDA175A839CB1EB9DE2FE9C821A /* UIGestureRecognizer.swift */; };
 		B267B423447528C2F9D9DC6BB02DCA68 /* TSKTrustKitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D03D11C8E43005B66DFED2AECDA5F /* TSKTrustKitConfig.m */; };
 		B419F1A59C46B243FCCED53C4C6E6B26 /* MMEEventsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D80B67020274084DB58581B6E8384A /* MMEEventsManager.swift */; };
-		B4D013A63A415BB8881A059719393FB3 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD59EF0E75FCF36A70A5239096C322E /* MapboxMobileEvents.framework */; };
 		B4DE557861B355D89A48E4F6EF89785E /* MBRouteController.h in Headers */ = {isa = PBXBuildFile; fileRef = 084199B392A42D1312719B3D8E0019FC /* MBRouteController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B543EC25BEF03B41B61E12533F4AB7AD /* MBSpeechOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57731A0FB7D1E17FC163566C2625E94 /* MBSpeechOptions.swift */; };
 		B609BF9E695D43A720E3FC423F22EE2F /* InstructionsBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FDAB73C4FCC5138C60D3B96B6D5C5C /* InstructionsBannerView.swift */; };
@@ -215,7 +205,6 @@
 		BC48E13D40D486A6F415BE91B40AE620 /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CECC47F36E675F244B771CE951B3F63 /* Polyline.swift */; };
 		BC9A4F7BB52A1F977FBD0FA4CF5A446F /* MMECategoryLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = D3672AEB1A0B65B9441C56617F81564B /* MMECategoryLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFD166ECD7868C2EA0A066225E85D486 /* NextBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB30688A8FA2E174527A5A2C53CF28 /* NextBannerView.swift */; };
-		C21C50087A2A25547CF40C6187980E9A /* MapboxSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018AB9DC15A9040D75B89AD52A3EDC3F /* MapboxSpeech.framework */; };
 		C2B73EEF7A488F08E7C1F1F99B14A448 /* MapboxCoreNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8462221C1958CE0EB41DF87293410E7 /* MapboxCoreNavigation-dummy.m */; };
 		C535914149E584199207ECEAD9591056 /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC592D54B899DF7F2BE6062A3C9E0F0 /* StyleManager.swift */; };
 		C53591FEBEB649FFAE6021F9F8713F4F /* MMECommonEventData.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF1869BC2F5C93406F78E29EF47D0E /* MMECommonEventData.m */; };
@@ -252,7 +241,6 @@
 		F0841D44EB766C0CD19316F80235C6D4 /* TSKTrustDecision.h in Headers */ = {isa = PBXBuildFile; fileRef = 4142AAA6355448FE8292212127B5AD78 /* TSKTrustDecision.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F323FB546C4475239DA6263C13D1C127 /* MBTracepoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472873F78ED678A27839171E226ECD49 /* MBTracepoint.swift */; };
 		F35DE2B12D747B334642D50FE6E33F35 /* ssl_pin_verifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 335935CA5BE1DFFCBA4ECA6FD7686593 /* ssl_pin_verifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F562564B8A2AC1750B0D32D6CF09CD48 /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4421F0281BDEA20799A6FA814C322519 /* Polyline.framework */; };
 		F7B50AD9B4C216C29D26A16DC286EA6D /* TSKPublicKeyAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FD1A803C2940324194AD0BB161D72A /* TSKPublicKeyAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A747B8C0B65A081FBACA775BF357D4 /* MapboxDirections.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D4B8653D263DB9AD89C92744DF59DD /* MapboxDirections.swift-dummy.m */; };
 		FACBD8D8B9A2AA3342D6F7EBD6B8F126 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD7BBB572F4394566F41B97905B8AB /* Info.plist */; };
@@ -414,13 +402,12 @@
 		00EC31DE3A72E75F8D73A05D79262C32 /* MBRouteOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBRouteOptions.m; path = MapboxDirections/MBRouteOptions.m; sourceTree = "<group>"; };
 		01161BAECDD20D9B8785CB70EAA5F5CD /* MapboxVoiceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapboxVoiceController.swift; path = MapboxNavigation/MapboxVoiceController.swift; sourceTree = "<group>"; };
 		0157F848ABD55073F29BACDAB81DF1C3 /* Navigation.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Navigation.strings; path = it.lproj/Navigation.strings; sourceTree = "<group>"; };
-		018AB9DC15A9040D75B89AD52A3EDC3F /* MapboxSpeech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxSpeech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E2C6C7B9F80CADB2A6F97AA8C88205 /* EndOfRouteViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndOfRouteViewController.swift; path = MapboxNavigation/EndOfRouteViewController.swift; sourceTree = "<group>"; };
 		01E6E371F7DD4DA00F9956FCA068CB36 /* MBLaneIndication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLaneIndication.h; path = MapboxDirections/MBLaneIndication.h; sourceTree = "<group>"; };
 		0363A580B073B0BF2B0D9A5E17D8649F /* MBRouteController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBRouteController.m; path = MapboxCoreNavigation/MBRouteController.m; sourceTree = "<group>"; };
 		05D80B67020274084DB58581B6E8384A /* MMEEventsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMEEventsManager.swift; path = MapboxCoreNavigation/MMEEventsManager.swift; sourceTree = "<group>"; };
 		06933EAE8A0AF5AB09E312D90454F17C /* UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDevice.swift; path = MapboxCoreNavigation/UIDevice.swift; sourceTree = "<group>"; };
-		06DC4C99A6930F90B0BB95C46919F127 /* MapboxCoreNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxCoreNavigation.framework; path = MapboxCoreNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DC4C99A6930F90B0BB95C46919F127 /* MapboxCoreNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxCoreNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		070A2C23BFE3DCC31AD4F7F1AA639143 /* Polyline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Polyline.modulemap; sourceTree = "<group>"; };
 		0724F2258990BA5E9C9CAF34C054919C /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		076AD0AD37596CBB68E5C65DE3701220 /* Solar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Solar-dummy.m"; sourceTree = "<group>"; };
@@ -439,7 +426,7 @@
 		0F14D7A6B67DE07E6AA94362F342A2F4 /* Navigation.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Navigation.strings; path = vi.lproj/Navigation.strings; sourceTree = "<group>"; };
 		0FCD33CF1212C2D2655CBB5DFF3F4D68 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = bg.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0FFA8AECCFBE64B64ACC657EDB9AD17F /* MapboxDirections.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapboxDirections.swift.modulemap; sourceTree = "<group>"; };
-		10006810FE711BE1F5A41F84EE297C5E /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		10006810FE711BE1F5A41F84EE297C5E /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		10431DA1CF8FDC96BC9F8FD0AB2ABED6 /* Navigation.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Navigation.strings; path = hu.lproj/Navigation.strings; sourceTree = "<group>"; };
 		113E51D37B2BD78CEBFD3BA76D294C1F /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = MapboxDirections/Extensions/Array.swift; sourceTree = "<group>"; };
 		121E142C8FB69D328AFE0E666DF95401 /* StyleKitMarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyleKitMarker.swift; path = MapboxNavigation/StyleKitMarker.swift; sourceTree = "<group>"; };
@@ -474,7 +461,6 @@
 		2A4DC5C96E5D9DAF18AB314047BAEAB2 /* UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionView.swift; path = MapboxNavigation/UICollectionView.swift; sourceTree = "<group>"; };
 		2A8BD1FB0235F20812C63BA23300E68A /* CoreLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreLocation.swift; path = Turf/CoreLocation.swift; sourceTree = "<group>"; };
 		2B8570AC24F3CC8CB2BADA58ACFAFCD0 /* MMEUIApplicationWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEUIApplicationWrapper.h; path = MapboxMobileEvents/MMEUIApplicationWrapper.h; sourceTree = "<group>"; };
-		2BC261EC10CE339A53BFB1539C3FBFC4 /* Solar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Solar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D59C50A1B79365C4F7F0C438CBD9118 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA0C32C22AC4A6B3D26A1DEC608273F /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = MapboxNavigation/ImageCache.swift; sourceTree = "<group>"; };
 		2DE6C13CF1FB9DFD003238376F28AF72 /* TSKPinningValidator_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKPinningValidator_Private.h; path = vendor/TrustKit/TSKPinningValidator_Private.h; sourceTree = "<group>"; };
@@ -484,7 +470,6 @@
 		2FC2F7838F087BEB56CDD49E8E0A4A57 /* MMETimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMETimerManager.h; path = MapboxMobileEvents/MMETimerManager.h; sourceTree = "<group>"; };
 		305B3B5B4B6F222B29C157453CBFF8EE /* Pods-NavigationTutorial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationTutorial-dummy.m"; sourceTree = "<group>"; };
 		30808A630CA20D1C0D5FF18751DE1B7B /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		31DB6091755C7D8CDC3A08682276CDBF /* MapboxCoreNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxCoreNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3208E280A07C0DF79935E0B2F34C364F /* MMECommonEventData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMECommonEventData.h; path = MapboxMobileEvents/MMECommonEventData.h; sourceTree = "<group>"; };
 		335935CA5BE1DFFCBA4ECA6FD7686593 /* ssl_pin_verifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl_pin_verifier.h; path = vendor/TrustKit/Pinning/ssl_pin_verifier.h; sourceTree = "<group>"; };
 		33A0F94B611CD662CFEC312A9AB2EE2C /* RouteProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouteProgress.swift; path = MapboxCoreNavigation/RouteProgress.swift; sourceTree = "<group>"; };
@@ -501,15 +486,14 @@
 		3E38D100A71055F593360A8246CE437D /* Turf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turf-prefix.pch"; sourceTree = "<group>"; };
 		3E72A86EC00E47707D2B091BF18CFBD1 /* TSKSPKIHashCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKSPKIHashCache.h; path = vendor/TrustKit/Pinning/TSKSPKIHashCache.h; sourceTree = "<group>"; };
 		40DB3EDA175A839CB1EB9DE2FE9C821A /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizer.swift; path = MapboxNavigation/UIGestureRecognizer.swift; sourceTree = "<group>"; };
-		40EA503B6852097EBBC6C59B01B1D94B /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxMobileEvents.framework; path = MapboxMobileEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		411D1A55DD6ABD3B1D10E3B6CA9A248A /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = he.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		40EA503B6852097EBBC6C59B01B1D94B /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxMobileEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		411D1A55DD6ABD3B1D10E3B6CA9A248A /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = he.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		4142AAA6355448FE8292212127B5AD78 /* TSKTrustDecision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKTrustDecision.h; path = vendor/TrustKit/TSKTrustDecision.h; sourceTree = "<group>"; };
 		4160BB6FA63788D65176E693D38B0162 /* TrustKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrustKit.h; path = vendor/TrustKit/TrustKit.h; sourceTree = "<group>"; };
 		41C54BA9901EAF9C2309CBA9999E9E8D /* TSKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKLog.h; path = vendor/TrustKit/TSKLog.h; sourceTree = "<group>"; };
 		4211EFDE8B94896858E6AF8D9EE6F50E /* MBRouteVoiceController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBRouteVoiceController.m; path = MapboxNavigation/MBRouteVoiceController.m; sourceTree = "<group>"; };
 		4229848D6DBCA9EADDF3B198842730AC /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 		42EB30688A8FA2E174527A5A2C53CF28 /* NextBannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NextBannerView.swift; path = MapboxNavigation/NextBannerView.swift; sourceTree = "<group>"; };
-		4421F0281BDEA20799A6FA814C322519 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44634B15BD3FF8DC7CCC3C8C0BCC9C80 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = MapboxNavigation/Dictionary.swift; sourceTree = "<group>"; };
 		4507E29C8ACD16537857E2E4FFC57EAD /* BundleAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleAdditions.swift; path = MapboxCoreNavigation/BundleAdditions.swift; sourceTree = "<group>"; };
 		45CA724D2A2C3E9605E425855FDBA458 /* NavigationMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationMapView.swift; path = MapboxNavigation/NavigationMapView.swift; sourceTree = "<group>"; };
@@ -542,8 +526,8 @@
 		5E9CBB5AEC90D5CE7B5B3DC681B09AC5 /* MapboxSpeech-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxSpeech-prefix.pch"; sourceTree = "<group>"; };
 		5EF14E5D0009DCF86255B69D667F8B00 /* TSKTrustKitConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKTrustKitConfig.h; path = vendor/TrustKit/TSKTrustKitConfig.h; sourceTree = "<group>"; };
 		6075ED4D6788B7CCD6108AC2E2644141 /* MBMatchOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBMatchOptions.swift; path = MapboxDirections/Match/MBMatchOptions.swift; sourceTree = "<group>"; };
-		60F26D33C81356BC5084DF1EFCD7FE4D /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = "pt-PT.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
-		6138812FA9ACB337223D246D4EC30B4D /* MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxDirections.framework; path = MapboxDirections.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F26D33C81356BC5084DF1EFCD7FE4D /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = "pt-PT.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
+		6138812FA9ACB337223D246D4EC30B4D /* MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		622294C02160D881EE1BDB86D4447943 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MapboxNavigation/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		6275748AC5C9E6D71E6683CC40327F85 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		627B5FDE496C39806DB77C1BBFADD751 /* ReplayLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplayLocationManager.swift; path = MapboxCoreNavigation/ReplayLocationManager.swift; sourceTree = "<group>"; };
@@ -551,7 +535,6 @@
 		6343122E74EE30FD770C2DD12159417B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64476F7BEE33521505ABB4CC5D908589 /* MMEEventLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEEventLogger.h; path = MapboxMobileEvents/MMEEventLogger.h; sourceTree = "<group>"; };
 		64630F3B9503BDD872597E44750E5321 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
-		656DF1BB44F1EF834455E74557BEB3D2 /* MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659768B1BB48DEF2EE7FA506CF352C4F /* MapboxNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapboxNavigation-dummy.m"; sourceTree = "<group>"; };
 		6603E7F9579B463BE581178739CB8EAC /* MBLane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBLane.swift; path = MapboxDirections/MBLane.swift; sourceTree = "<group>"; };
 		6632A21CDA84C98B8323E9E6B94E69B9 /* TSKPinningValidatorCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKPinningValidatorCallback.h; path = vendor/TrustKit/TSKPinningValidatorCallback.h; sourceTree = "<group>"; };
@@ -599,14 +582,13 @@
 		85E1CAE4A93D3194ADD34ACF23DEDF54 /* Pods-NavigationTutorial-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationTutorial-frameworks.sh"; sourceTree = "<group>"; };
 		8744F6C0E91C74ECBA0F68A68DB9BE26 /* MBVisualInstructionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBVisualInstructionType.swift; path = MapboxDirections/MBVisualInstructionType.swift; sourceTree = "<group>"; };
 		87F4CD4048FDFC6CD72530E8FEB5787E /* Solar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Solar-prefix.pch"; sourceTree = "<group>"; };
-		888A7FD3BFD03AD562F4DC81209DF0A9 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = uk.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		888A7FD3BFD03AD562F4DC81209DF0A9 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = uk.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		88AEECAE89AE5EF04B185F152856903F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		894A9D31EB768A22D52CA536D362F8B8 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
-		8B8C5E2FD3EC1586129FF4BE606F1C0A /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Polyline.framework; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894A9D31EB768A22D52CA536D362F8B8 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		8B8C5E2FD3EC1586129FF4BE606F1C0A /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC89B1DB9BEC3006B4749D8B6F02842 /* InstructionPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstructionPresenter.swift; path = MapboxNavigation/InstructionPresenter.swift; sourceTree = "<group>"; };
-		8BD59EF0E75FCF36A70A5239096C322E /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxMobileEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFE924A97F9A11260B7B7F9B9288CD5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		8D1BA03EEDB0A993DA51A837ADF373F1 /* MapboxNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxNavigation.framework; path = MapboxNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1BA03EEDB0A993DA51A837ADF373F1 /* MapboxNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7A9D90B1A336D914AF6E708843EFEC /* CLLocation+MMEMobileEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+MMEMobileEvents.m"; path = "MapboxMobileEvents/CLLocation+MMEMobileEvents.m"; sourceTree = "<group>"; };
 		8EEF098562242A887A72CA901F9310F8 /* MapboxSpeech.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapboxSpeech.modulemap; sourceTree = "<group>"; };
 		8FDE2B4B6CA82FFDDDD396301D6C8B24 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -615,10 +597,10 @@
 		90588E0C74215772056B01C01A21D0BB /* Navigation.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Navigation.strings; path = sv.lproj/Navigation.strings; sourceTree = "<group>"; };
 		909818F5424543CAAA6BB44727847F8A /* MBDirectionsResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDirectionsResult.swift; path = MapboxDirections/MBDirectionsResult.swift; sourceTree = "<group>"; };
 		90FD1A803C2940324194AD0BB161D72A /* TSKPublicKeyAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKPublicKeyAlgorithm.h; path = vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h; sourceTree = "<group>"; };
-		928479C746C854DA359722ADF15D7576 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = fr.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		928479C746C854DA359722ADF15D7576 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = fr.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		930C419714DE667980E25ED4C3764EF6 /* configuration_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = configuration_utils.h; path = vendor/TrustKit/configuration_utils.h; sourceTree = "<group>"; };
 		9376B8B7D78F454D018F6A48EB99B5CA /* MMEDependencyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEDependencyManager.h; path = MapboxMobileEvents/MMEDependencyManager.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93F49ED8655FFE34359A2CE11A415B64 /* MBRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRoute.swift; path = MapboxDirections/MBRoute.swift; sourceTree = "<group>"; };
 		940FF48C0A7BA3E804FB265C0860BC87 /* NavigationRouteOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationRouteOptions.swift; path = MapboxCoreNavigation/NavigationRouteOptions.swift; sourceTree = "<group>"; };
 		941BF460315EDD22F9A32BEB4C878FA2 /* MMETypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMETypes.m; path = MapboxMobileEvents/MMETypes.m; sourceTree = "<group>"; };
@@ -650,13 +632,13 @@
 		ABCB153FA9EA513A0967315BCD0120D3 /* Polyline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.xcconfig; sourceTree = "<group>"; };
 		AC12880ECF646D397D5917E81A767B3B /* TSKPinningValidatorResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSKPinningValidatorResult.m; path = vendor/TrustKit/TSKPinningValidatorResult.m; sourceTree = "<group>"; };
 		AD0ED6FC43F0D40A976C9C18218F6CB7 /* MapboxCoreNavigation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxCoreNavigation-prefix.pch"; sourceTree = "<group>"; };
-		ADAB49124054FF2346EE6048FEA5C13B /* MapboxSpeech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxSpeech.framework; path = MapboxSpeech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAB49124054FF2346EE6048FEA5C13B /* MapboxSpeech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxSpeech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE88E7BD13CEACCA197EBCC01FD8FD03 /* ssl_pin_verifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ssl_pin_verifier.m; path = vendor/TrustKit/Pinning/ssl_pin_verifier.m; sourceTree = "<group>"; };
 		AF7E667716511E758DF7DD21E2BB0A1F /* RouteOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouteOptions.swift; path = MapboxCoreNavigation/RouteOptions.swift; sourceTree = "<group>"; };
 		B157FA6745F514F98C2918CF05106B8A /* Turf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turf.xcconfig; sourceTree = "<group>"; };
 		B4CAE30BAE9E7AFD6D8D4AEB2E19ACDB /* StyleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyleType.swift; path = MapboxNavigation/StyleType.swift; sourceTree = "<group>"; };
 		B4ECC6144DD44A7732B333C494874208 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = MapboxDirections/Extensions/String.swift; sourceTree = "<group>"; };
-		B54155B463C9EFB228A8269C4B5A4C1E /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = vi.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		B54155B463C9EFB228A8269C4B5A4C1E /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = vi.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		B69FC0D14ECD38BE3D74E0CD674FB1D1 /* Navigation.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Navigation.strings; path = "pt-BR.lproj/Navigation.strings"; sourceTree = "<group>"; };
 		B7C33C13621236AC6A5849E121B076A9 /* parse_configuration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = parse_configuration.m; path = vendor/TrustKit/parse_configuration.m; sourceTree = "<group>"; };
 		B854B8A38BE2E16BF60BEC7531244CA6 /* FeedbackItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedbackItem.swift; path = MapboxNavigation/FeedbackItem.swift; sourceTree = "<group>"; };
@@ -673,7 +655,7 @@
 		C26CBE3E5C1A4BF3A6F4319F76930789 /* CLLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLLocation.swift; path = MapboxCoreNavigation/CLLocation.swift; sourceTree = "<group>"; };
 		C2AB0F96127BC58C356011942481559B /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = MapboxNavigation/Cache.swift; sourceTree = "<group>"; };
 		C2B6B1548924E29746C1688F66300375 /* MapboxDirections.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxDirections.swift-umbrella.h"; sourceTree = "<group>"; };
-		C34BF8D05D60A8590A27C8A5F70B9172 /* Pods_NavigationTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigationTutorial.framework; path = "Pods-NavigationTutorial.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34BF8D05D60A8590A27C8A5F70B9172 /* Pods_NavigationTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36A59ECC53A9E1BE573EC8F483AF987 /* NSData+MMEGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MMEGZIP.m"; path = "MapboxMobileEvents/NSData+MMEGZIP.m"; sourceTree = "<group>"; };
 		C520FAB991D267C413DBCCA19CB09424 /* FeedbackCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedbackCollectionViewCell.swift; path = MapboxNavigation/FeedbackCollectionViewCell.swift; sourceTree = "<group>"; };
 		C621F2BEB12A8459BAAA1F25D70FE10B /* Polyline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-umbrella.h"; sourceTree = "<group>"; };
@@ -684,12 +666,12 @@
 		CCDE27E1D739EFB7246C46309CC215B1 /* Polyline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyline-dummy.m"; sourceTree = "<group>"; };
 		CDB62E799FA20837771455DC61E80D6E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CEF1B4C0BF9939B61C997D3DF3DFFA07 /* MMENSDateWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMENSDateWrapper.h; path = MapboxMobileEvents/MMENSDateWrapper.h; sourceTree = "<group>"; };
-		CF3C414C2752D61A057C7BAA7B2E2010 /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turf.framework; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3C414C2752D61A057C7BAA7B2E2010 /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A97F81E50805A78B9E10068D28E8A5 /* MapboxMobileEvents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxMobileEvents-prefix.pch"; sourceTree = "<group>"; };
 		D22CCA06DB09FB38D680ADA11C655540 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = MapboxCoreNavigation/String.swift; sourceTree = "<group>"; };
 		D2829556E1A3FADEB032D2CA1191FFFF /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = MapboxCoreNavigation/Date.swift; sourceTree = "<group>"; };
 		D3672AEB1A0B65B9441C56617F81564B /* MMECategoryLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMECategoryLoader.h; path = MapboxMobileEvents/MMECategoryLoader.h; sourceTree = "<group>"; };
-		D3C6BF33DD0A9A8F5714F078F518FC26 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = sv.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		D3C6BF33DD0A9A8F5714F078F518FC26 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = sv.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		D5269011DDEB78353E3F98FA4CD00597 /* MMEConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEConstants.m; path = MapboxMobileEvents/MMEConstants.m; sourceTree = "<group>"; };
 		D56FE0DA21839161C074E9CD99D544F6 /* DistanceFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistanceFormatter.swift; path = MapboxCoreNavigation/DistanceFormatter.swift; sourceTree = "<group>"; };
 		D780419CFDB2102EED49E2017F448CDC /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = MapboxNavigation/ImageDownloader.swift; sourceTree = "<group>"; };
@@ -699,10 +681,10 @@
 		D936E35025B0DB3D2F30969E3487147E /* Turf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Turf.modulemap; sourceTree = "<group>"; };
 		D97B426429A4B64A70F9D20FF6EE581A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D9E74111789896579476E4B8F172B8DD /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = MapboxNavigation/UIView.swift; sourceTree = "<group>"; };
-		DA0C4F13B078AD3D64F96F35B3FDDB55 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = da.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		DA0C4F13B078AD3D64F96F35B3FDDB55 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = da.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		DA51595B17DE0CD355E21604DEFF9275 /* MMETrustKitWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMETrustKitWrapper.m; path = MapboxMobileEvents/MMETrustKitWrapper.m; sourceTree = "<group>"; };
 		DAD42C6EE7169249956A05044A303BF4 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		DC5F84E1B2415C9CF5A52310C54A6C57 /* Solar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Solar.framework; path = Solar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5F84E1B2415C9CF5A52310C54A6C57 /* Solar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Solar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7EFC0C7BDBBB3E43DA2C4A77501A65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD9B96902F34208BD12377A7FB94D6DE /* TSKSPKIHashCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSKSPKIHashCache.m; path = vendor/TrustKit/Pinning/TSKSPKIHashCache.m; sourceTree = "<group>"; };
 		DDE326B2AF739DFC91AB525A8A470A60 /* MMEEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEEvent.h; path = MapboxMobileEvents/MMEEvent.h; sourceTree = "<group>"; };
@@ -710,7 +692,7 @@
 		DFF56063D79989DA885F2584EF36202B /* RouteStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouteStep.swift; path = MapboxCoreNavigation/RouteStep.swift; sourceTree = "<group>"; };
 		E01D6B566E1992D957340050AA5B4860 /* ImageRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRepository.swift; path = MapboxNavigation/ImageRepository.swift; sourceTree = "<group>"; };
 		E0A6B055DBF803676A417556CEC68D29 /* LanesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanesView.swift; path = MapboxNavigation/LanesView.swift; sourceTree = "<group>"; };
-		E1A342AC385391DAE34A277C89AFAE8F /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.stringsdict; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		E1A342AC385391DAE34A277C89AFAE8F /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		E281092402F263A46B924FF3A63BDA0D /* ProcessInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProcessInfo.swift; path = MapboxCoreNavigation/ProcessInfo.swift; sourceTree = "<group>"; };
 		E3309ACAB230BA5EFD12DE0856FB2E73 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E373F50BE5E9A58A9A9B6FF952D247BF /* MBAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBAttribute.h; path = MapboxDirections/MBAttribute.h; sourceTree = "<group>"; };
@@ -719,10 +701,9 @@
 		E4EBFA4E076A5BAE82DA1319C97FA450 /* DataCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataCache.swift; path = MapboxNavigation/DataCache.swift; sourceTree = "<group>"; };
 		E50133AFF41490B39ED0BB9FDF788499 /* ManeuversStyleKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManeuversStyleKit.swift; path = MapboxNavigation/ManeuversStyleKit.swift; sourceTree = "<group>"; };
 		E630DB999C2822DC11870072E6BE115E /* MMEUINavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEUINavigation.m; path = MapboxMobileEvents/MMEUINavigation.m; sourceTree = "<group>"; };
-		E67294EEC41CF88DA320179122B942E2 /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68774B96ED736C8F8CFEA0DF74F1F2C /* Navigation.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Navigation.strings; path = fa.lproj/Navigation.strings; sourceTree = "<group>"; };
 		E71745B6962E6ECE1A70986CADABCFB7 /* BottomBannerViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomBannerViewLayout.swift; path = MapboxNavigation/BottomBannerViewLayout.swift; sourceTree = "<group>"; };
-		E7528667CD2C775AE98491313A1703AB /* logger.html */ = {isa = PBXFileReference; includeInIndex = 1; name = logger.html; path = MapboxMobileEvents/Resources/logger.html; sourceTree = "<group>"; };
+		E7528667CD2C775AE98491313A1703AB /* logger.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = logger.html; path = MapboxMobileEvents/Resources/logger.html; sourceTree = "<group>"; };
 		E7808CE8817E2D2099406519203606D5 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = MapboxCoreNavigation/Array.swift; sourceTree = "<group>"; };
 		E8C3730D8DC53760F2E4F51A2A614F51 /* MMELocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMELocationManager.h; path = MapboxMobileEvents/MMELocationManager.h; sourceTree = "<group>"; };
 		E95016BDB1D5AEAB5F02C42848C7F189 /* MMEReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEReachability.m; path = MapboxMobileEvents/Reachability/MMEReachability.m; sourceTree = "<group>"; };
@@ -765,10 +746,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FAD9FFCC7324482E3954290A2A5C6D6 /* Foundation.framework in Frameworks */,
-				5121E65FD11847801FB02FDF475B4E54 /* MapboxDirections.framework in Frameworks */,
-				B4D013A63A415BB8881A059719393FB3 /* MapboxMobileEvents.framework in Frameworks */,
-				F562564B8A2AC1750B0D32D6CF09CD48 /* Polyline.framework in Frameworks */,
-				5BFB571358A67914BD456F9D648CE9CE /* Turf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,13 +754,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				58CDF10383267F4BE21D862B284B4F52 /* Foundation.framework in Frameworks */,
-				1C06ED9E7F45EED0F3AD2AC1D27FEF9B /* MapboxCoreNavigation.framework in Frameworks */,
-				47C4EFAAEE9D026A25AA5260ED6FAFA9 /* MapboxDirections.framework in Frameworks */,
-				1CEA3A5C842044292B2537F3665A7BA4 /* MapboxMobileEvents.framework in Frameworks */,
-				C21C50087A2A25547CF40C6187980E9A /* MapboxSpeech.framework in Frameworks */,
-				43C4923A4702AFCCF89DA06A56983965 /* Polyline.framework in Frameworks */,
-				0B248E9AAEDFC000729FD8E3B806D8C2 /* Solar.framework in Frameworks */,
-				2C5F6941DE11DDFFD18E75E65DF60BB1 /* Turf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,7 +762,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8BB2F6F03AB6F2EF4D31CA67631979 /* Foundation.framework in Frameworks */,
-				1FEDCA26A7CE3C301122FFF6EDC9C893 /* Polyline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -896,7 +865,6 @@
 				B4ECC6144DD44A7732B333C494874208 /* String.swift */,
 				EECE4C6D5ABB6E3C69C1181443011901 /* Support Files */,
 			);
-			name = MapboxDirections.swift;
 			path = MapboxDirections.swift;
 			sourceTree = "<group>";
 		};
@@ -914,7 +882,6 @@
 				5D4E6665C0E3D7AE0D2A0464A2759B65 /* Solar.swift */,
 				95D269BEE81D3083C28E85B56DAA453B /* Support Files */,
 			);
-			name = Solar;
 			path = Solar;
 			sourceTree = "<group>";
 		};
@@ -1018,7 +985,6 @@
 				9D46A9B44D806ADFA293BC834D8517ED /* Resources */,
 				7CE179AD3CD390DF26AA4E5FFB163756 /* Support Files */,
 			);
-			name = MapboxNavigation;
 			path = MapboxNavigation;
 			sourceTree = "<group>";
 		};
@@ -1029,7 +995,6 @@
 				7CECC47F36E675F244B771CE951B3F63 /* Polyline.swift */,
 				534D690A693F9E18C40EAD84E8A1A412 /* Support Files */,
 			);
-			name = Polyline;
 			path = Polyline;
 			sourceTree = "<group>";
 		};
@@ -1041,7 +1006,6 @@
 				A57731A0FB7D1E17FC163566C2625E94 /* MBSpeechOptions.swift */,
 				CFE8440208540EDD45ADBC599137005A /* Support Files */,
 			);
-			name = MapboxSpeech;
 			path = MapboxSpeech;
 			sourceTree = "<group>";
 		};
@@ -1082,7 +1046,6 @@
 				7AAD315839B075C7030A9CA1E5914577 /* Turf.swift */,
 				55535539BA43289D24E9D06B879EB0A6 /* Support Files */,
 			);
-			name = Turf;
 			path = Turf;
 			sourceTree = "<group>";
 		};
@@ -1114,13 +1077,6 @@
 		87E5546F803C68BD7C8E863D8ADA1234 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31DB6091755C7D8CDC3A08682276CDBF /* MapboxCoreNavigation.framework */,
-				656DF1BB44F1EF834455E74557BEB3D2 /* MapboxDirections.framework */,
-				8BD59EF0E75FCF36A70A5239096C322E /* MapboxMobileEvents.framework */,
-				018AB9DC15A9040D75B89AD52A3EDC3F /* MapboxSpeech.framework */,
-				4421F0281BDEA20799A6FA814C322519 /* Polyline.framework */,
-				2BC261EC10CE339A53BFB1539C3FBFC4 /* Solar.framework */,
-				E67294EEC41CF88DA320179122B942E2 /* Turf.framework */,
 				A1C389BF3D3E398A677EE889567EF15C /* iOS */,
 			);
 			name = Frameworks;
@@ -1200,7 +1156,6 @@
 				06933EAE8A0AF5AB09E312D90454F17C /* UIDevice.swift */,
 				0163E00F822A32FE031E22718535F644 /* Support Files */,
 			);
-			name = MapboxCoreNavigation;
 			path = MapboxCoreNavigation;
 			sourceTree = "<group>";
 		};
@@ -1295,7 +1250,6 @@
 				4091E98F6BAF87AC230C14F9AF0768BC /* Resources */,
 				D028E3AB592C1C148DFA7AFC537C1986 /* Support Files */,
 			);
-			name = MapboxMobileEvents;
 			path = MapboxMobileEvents;
 			sourceTree = "<group>";
 		};
@@ -1304,7 +1258,6 @@
 			children = (
 				1A888E4255AF053329207A18EB4A104A /* Frameworks */,
 			);
-			name = "Mapbox-iOS-SDK";
 			path = "Mapbox-iOS-SDK";
 			sourceTree = "<group>";
 		};

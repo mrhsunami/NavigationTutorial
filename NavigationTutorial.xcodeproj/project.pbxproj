@@ -13,6 +13,7 @@
 		D8E394AF20770B2500229BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E394AD20770B2500229BDD /* Main.storyboard */; };
 		D8E394B120770B2600229BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E394B020770B2600229BDD /* Assets.xcassets */; };
 		D8E394B420770B2600229BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E394B220770B2600229BDD /* LaunchScreen.storyboard */; };
+		D8FC4FD6207D6A9A00221ED0 /* WaypointsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC4FD5207D6A9A00221ED0 /* WaypointsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D8E394B020770B2600229BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8E394B320770B2600229BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8E394B520770B2600229BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FC4FD5207D6A9A00221ED0 /* WaypointsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				D8E394A920770B2500229BDD /* AppDelegate.swift */,
 				D8E394AB20770B2500229BDD /* ViewController.swift */,
 				D8E394AD20770B2500229BDD /* Main.storyboard */,
+				D8FC4FD5207D6A9A00221ED0 /* WaypointsManager.swift */,
 				D8E394B020770B2600229BDD /* Assets.xcassets */,
 				D8E394B220770B2600229BDD /* LaunchScreen.storyboard */,
 				D8E394B520770B2600229BDD /* Info.plist */,
@@ -225,6 +228,7 @@
 			files = (
 				D8E394AC20770B2500229BDD /* ViewController.swift in Sources */,
 				D8E394AA20770B2500229BDD /* AppDelegate.swift in Sources */,
+				D8FC4FD6207D6A9A00221ED0 /* WaypointsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
