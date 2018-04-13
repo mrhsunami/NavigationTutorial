@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2418024C1CE3B19D687050D8 /* Pods_NavigationTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18925BD06015F566AFECA8A4 /* Pods_NavigationTutorial.framework */; };
+		D8332260207EC703005CF4DB /* DraggableAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D833225F207EC703005CF4DB /* DraggableAnnotationView.swift */; };
 		D8E394AA20770B2500229BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E394A920770B2500229BDD /* AppDelegate.swift */; };
 		D8E394AC20770B2500229BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E394AB20770B2500229BDD /* ViewController.swift */; };
 		D8E394AF20770B2500229BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E394AD20770B2500229BDD /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		18925BD06015F566AFECA8A4 /* Pods_NavigationTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75575BB21E48F5A466F9E082 /* Pods-NavigationTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationTutorial/Pods-NavigationTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		C390895DBFA0AABE86E06059 /* Pods-NavigationTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationTutorial/Pods-NavigationTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		D833225F207EC703005CF4DB /* DraggableAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableAnnotationView.swift; sourceTree = "<group>"; };
 		D8E394A620770B2500229BDD /* NavigationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E394A920770B2500229BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8E394AB20770B2500229BDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				D8E394AB20770B2500229BDD /* ViewController.swift */,
 				D8E394AD20770B2500229BDD /* Main.storyboard */,
 				D8FC4FD5207D6A9A00221ED0 /* WaypointsManager.swift */,
+				D833225F207EC703005CF4DB /* DraggableAnnotationView.swift */,
 				D8E394B020770B2600229BDD /* Assets.xcassets */,
 				D8E394B220770B2600229BDD /* LaunchScreen.storyboard */,
 				D8E394B520770B2600229BDD /* Info.plist */,
@@ -229,6 +232,7 @@
 				D8E394AC20770B2500229BDD /* ViewController.swift in Sources */,
 				D8E394AA20770B2500229BDD /* AppDelegate.swift in Sources */,
 				D8FC4FD6207D6A9A00221ED0 /* WaypointsManager.swift in Sources */,
+				D8332260207EC703005CF4DB /* DraggableAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
